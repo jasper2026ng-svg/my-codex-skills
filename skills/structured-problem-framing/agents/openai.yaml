@@ -1,0 +1,7 @@
+interface:
+  display_name: "Structured Problem Framing"
+  short_description: "Frame messy business questions clearly."
+  default_prompt: "Use $structured-problem-framing to frame this business problem before proposing actions."
+
+policy:
+  allow_implicit_invocation: true

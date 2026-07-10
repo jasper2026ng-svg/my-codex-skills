@@ -1,0 +1,7 @@
+interface:
+  display_name: "First Principles Reframing"
+  short_description: "Challenge assumptions and redesign from facts."
+  default_prompt: "Use $first-principles-reframing to rethink this problem from basic facts."
+
+policy:
+  allow_implicit_invocation: true
