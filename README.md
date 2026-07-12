@@ -1,14 +1,15 @@
 # My Codex Skills
 
-Personal Codex skills and portable sync packages.
+Personal Codex skills and portable single-skill packages.
 
-## Included skills
+## Included Skills
 
 - `structured-problem-framing`
 - `first-principles-reframing`
 - `critical-questioning`
+- `pyramid-communication`
 
-## Recommended install path on Windows
+## Recommended Install Path On Windows
 
 Codex loads personal skills from:
 
@@ -16,32 +17,38 @@ Codex loads personal skills from:
 $env:USERPROFILE\.codex\skills
 ```
 
-## Install from the sync package
+## Install One Skill From A Zip Package
 
-1. Download `packages/personal-skill-sync-pack-20260712.zip`.
-2. Extract the zip on the target computer.
-3. Open PowerShell inside the extracted `personal-skill-sync-pack` folder.
-4. Verify the package:
+Download the skill package you need from `packages/`, extract it, and copy the extracted skill folder into:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\verify-package.ps1
+$env:USERPROFILE\.codex\skills
 ```
 
-5. Install the skills:
+For example, `packages/pyramid-communication-20260712.zip` extracts to:
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\install-windows.ps1
+```text
+pyramid-communication/
 ```
 
-If the target computer already has older versions and you want to replace them:
+Copy that whole folder into:
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\install-windows.ps1 -Force
+```text
+C:\Users\<your-user>\.codex\skills
 ```
 
-Restart Codex Desktop after installation if the skills do not appear immediately.
+Restart Codex Desktop after installation if the skill does not appear immediately.
 
-## Manual install from this repository
+## Current Individual Packages
+
+- `packages/structured-problem-framing-20260712.zip`
+- `packages/first-principles-reframing-20260712.zip`
+- `packages/critical-questioning-20260712.zip`
+- `packages/pyramid-communication-20260712.zip`
+
+Older all-in-one packages may remain in `packages/` as history, but new releases should use one zip per skill.
+
+## Manual Install From This Repository
 
 Copy each folder under `skills/` into:
 
