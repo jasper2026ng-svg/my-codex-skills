@@ -1,0 +1,4 @@
+interface:
+  display_name: "HRBP Business Diagnosis"
+  short_description: "Translate HR symptoms into business and organization diagnosis."
+  default_prompt: "Use $hrbp-business-diagnosis to diagnose this HRBP or organization issue from the business context."
