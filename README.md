@@ -6,6 +6,7 @@ Personal Codex skills and portable sync packages.
 
 - `structured-problem-framing`
 - `first-principles-reframing`
+- `critical-questioning`
 
 ## Recommended install path on Windows
 
@@ -17,7 +18,7 @@ $env:USERPROFILE\.codex\skills
 
 ## Install from the sync package
 
-1. Download `packages/personal-skill-sync-pack-20260710.zip`.
+1. Download `packages/personal-skill-sync-pack-20260712.zip`.
 2. Extract the zip on the target computer.
 3. Open PowerShell inside the extracted `personal-skill-sync-pack` folder.
 4. Verify the package:

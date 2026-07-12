@@ -1,0 +1,4 @@
+interface:
+  display_name: "Critical Questioning"
+  short_description: "Audit claims, evidence, assumptions, and conclusions."
+  default_prompt: "Use $critical-questioning to test this argument before we rely on it."
