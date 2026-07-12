@@ -1,0 +1,4 @@
+interface:
+  display_name: "Effective Manager Operating System"
+  short_description: "Design management rhythm, priorities, decisions, and delegation."
+  default_prompt: "Use $effective-manager-operating-system to improve this management situation."
