@@ -10,6 +10,7 @@ Personal Codex skills, portable single-skill packages, and Human Learning Cards.
 - `pyramid-communication`
 - `effective-manager-operating-system`
 - `hrbp-business-diagnosis`
+- `decision-quality-review`
 
 ## Human Learning Cards
 
@@ -64,6 +65,7 @@ Restart Codex Desktop after installation if the skill does not appear immediatel
 - `packages/pyramid-communication-20260712.zip`
 - `packages/effective-manager-operating-system-20260712.zip`
 - `packages/hrbp-business-diagnosis-20260712.zip`
+- `packages/decision-quality-review-20260712.zip`
 
 Older all-in-one packages may remain in `packages/` as history, but new releases should use one zip per skill.
 
