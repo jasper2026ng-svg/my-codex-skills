@@ -2,6 +2,14 @@
 
 Personal Codex skills, portable single-skill packages, and Human Learning Cards.
 
+## Thinking OS
+
+Start here when choosing which skill to use:
+
+- `docs/jasper-thinking-os-v0.1.md`
+
+Jasper Thinking OS is a practical map for deciding which thinking step you are in, which skill to use, and when to stop instead of running a long process.
+
 ## Included Skills
 
 - `structured-problem-framing`
