@@ -13,6 +13,7 @@ Jasper Thinking OS is a practical map for deciding which thinking step you are i
 ## Included Skills
 
 - `structured-problem-framing`
+- `real-problem-discovery`
 - `first-principles-reframing`
 - `critical-questioning`
 - `pyramid-communication`
@@ -68,6 +69,7 @@ Restart Codex Desktop after installation if the skill does not appear immediatel
 ## Current Individual Packages
 
 - `packages/structured-problem-framing-20260712.zip`
+- `packages/real-problem-discovery-20260714.zip`
 - `packages/first-principles-reframing-20260712.zip`
 - `packages/critical-questioning-20260712.zip`
 - `packages/pyramid-communication-20260712.zip`

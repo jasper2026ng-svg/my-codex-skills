@@ -1,0 +1,4 @@
+interface:
+  display_name: "Real Problem Discovery"
+  short_description: "Find the real problem behind symptoms."
+  default_prompt: "Use $real-problem-discovery to find the real problem behind this symptom or request."
