@@ -1,76 +1,98 @@
-# Human Learning Card: Real Problem Discovery
+# 人的学习卡：真问题发现
 
-Linked agent skill: `real-problem-discovery`
+关联 Agent Skill：`real-problem-discovery`
 
-## What This Helps You Learn
+## 来源与当前可信度
 
-Pause before solving and identify the real problem or true need behind a symptom, complaint, request, or proposed solution.
+- 概念主来源：《你的灯亮着吗：如何找到真问题》；
+- 当前个人阅读进度约 14%，个人划线 1 条，不能声称已经从个人笔记完整还原全书；
+- 本次补充检查了目录、公共热门划线、推荐与负面书评、作者和出版信息；
+- 书籍质量暂评为 B：适合提供核心概念，但不足以单独支撑成熟执行流程；
+- “问题是利益相关者感知到的现状与期望之间的差距”“问题定义始终暂定”等属于书中明确内容；
+- 三个暂定定义、置信度、固定输出模板和 Skill 路由主要属于 Agent 综合，仍需案例验证。
 
-## Core Human Judgment
+因此，这张学习卡和对应 Skill 都是可继续修正的早期版本，不是原书的权威摘要，也不是最终方法。
 
-The key skill is noticing when you are about to solve a named problem that may not be the real problem.
+## 这个模型帮助我学会什么
 
-## 3 Principles To Internalize
+面对抱怨、现象、原因猜测或现成方案时，先形成一个更好的暂定问题定义，再进入拆解和解决。
 
-1. A complaint is not yet a problem statement.
-2. A proposed solution usually hides an unstated problem.
-3. Prefer observable, changeable system variables over hard-to-verify motivation claims.
+## 一句话定义
 
-## When To Use
+对某个具体的人或群体而言，问题是其感知到的当前状态与期望状态之间一个值得处理的差距。
 
-- Someone says "we need X" but the underlying problem is unclear.
-- A business symptom is being explained too quickly by attitude, culture, or capability.
-- User feedback sounds strong, but the real scenario and need are missing.
-- You are about to decompose or solve a problem and feel the frame may be wrong.
+## 核心判断
 
-## When Not To Use
+“真问题发现”不是寻找唯一病根，也不是证明最终本质。它是在当前证据下回答：谁在什么场景中，什么重要结果没有达到期望，我们现在最值得处理的差距是什么？
 
-- The problem is already clear and only needs decomposition.
-- The task is low-risk execution.
-- You need a final communication draft.
-- The issue requires professional legal, medical, financial, or safety guidance.
+## 需要内化的四个原则
 
-## Before Asking The Agent
+1. 抱怨和现象只是原始信号，不是完整问题定义；
+2. “我们需要培训、招人、建系统”通常是方案，不是问题；
+3. 同一情境对不同利益相关者可能是不同问题；
+4. 问题定义始终暂定，清楚到足以指导下一次验证或行动即可。
 
-Write your 30-second initial judgment:
+## 与相邻模型的区别
+
+- 真问题发现：确认现在最值得处理的差距是什么；
+- 结构化问题定义：把这个差距写成有范围、目标、约束和决策的问题；
+- 原因诊断：分析这个差距为什么发生；
+- 第一性原理：当旧做法或隐含约束限制了解法时，重新构造路径。
+
+## 什么时候使用
+
+- 输入是模糊抱怨或主观标签；
+- 对方直接提出了方案；
+- 不清楚是谁的问题或谁真正承受后果；
+- 团队正在解决问题，但对问题本身没有共识；
+- 怀疑当前问题定义只代表某一个人的视角。
+
+## 什么时候不使用
+
+- 问题已经清楚，只需要拆解或执行；
+- 任务低风险、低歧义，继续发现不会改变行动；
+- 当前需要的是论证审查、决策选择或最终表达；
+- 继续寻找定义的成本已经高于获得新信息的价值。
+
+## 请求 Agent 前，我先写
 
 ```text
-The raw signal is...
-I currently think the real problem is...
-The proposed solution is...
-The person who feels the pain is...
-The observable evidence is...
-The part I may be assuming is...
+原始信号是：
+是谁提出的：
+谁真正承受影响：
+他感知到的当前状态是：
+他期望的状态是：
+重要差距和影响是：
+已经被提出的方案是：
+我可能提前假设的是：
 ```
 
-## After The Agent Responds
+## Agent 回答后，我要比较
 
-Compare:
+- Agent 是否区分了现象、解释、原因猜测和方案？
+- Agent 是否找到了不同的问题承受者？
+- 哪个问题定义最值得先处理，为什么？
+- 什么证据会改变当前定义？
+- 解决当前问题可能制造什么新问题？
 
-- Did the agent separate symptom, interpretation, and real problem?
-- Did it identify a different affected user or problem owner?
-- Did it find a solution-shaped frame?
-- Which problem statement is most actionable?
-- What small check would reduce uncertainty fastest?
+## 反向讲解
 
-## Teach-Back
+不看学习卡，回答：
 
-Without looking at the skill, answer:
+1. 在这个模型里，什么叫问题？
+2. 真问题发现为什么不等于找到唯一根因？
+3. 什么时候应该停止继续找问题，进入下一步？
 
-1. How do you tell a symptom from a real problem?
-2. Whose problem is this?
-3. What observable variable can you change first?
+## 迁移测试
 
-## Transfer Test
+选择一个新的工作抱怨，先独立写出：
 
-Take one real complaint from work. Before using the agent, write:
+- 原始现象；
+- 现成解释；
+- 预设方案；
+- 问题承受者；
+- 当前状态与期望状态；
+- 暂定问题定义；
+- 会改变定义的证据。
 
-- raw complaint;
-- proposed solution;
-- affected person;
-- possible real problem;
-- evidence;
-- hard-to-verify assumption;
-- observable system variable.
-
-Then use the agent to discover a better problem statement.
+然后再让 Agent 只负责审查，不直接替你找答案。

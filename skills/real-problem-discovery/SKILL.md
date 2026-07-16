@@ -1,142 +1,133 @@
 ---
 name: real-problem-discovery
-description: Discover the real problem or true need behind a vague symptom, complaint, request, proposed solution, stakeholder demand, user feedback, business pain, HR issue, meeting problem, product request, or operational friction. Use before structured-problem-framing when the issue may be misnamed, solution-shaped, owned by the wrong person, based on assumptions, or missing the user's real scenario and need. Based on an MVP extraction from the user's WeRead copies of "你的灯亮着吗：如何找到真问题" and "以用户为中心".
+description: Construct a better provisional problem definition or need behind a vague symptom, complaint, request, proposed solution, stakeholder demand, user feedback, business pain, HR issue, meeting problem, product request, or operational friction. Use before structured-problem-framing when the issue may be misnamed, solution-shaped, owned by the wrong person, based on assumptions, or missing the affected person's real scenario, expected state, and cost. In the first pass, classify the raw signal, identify the stakeholder gap, give at least three provisional definitions, select one working definition, recommend only one evidence check, and stop before solution design. Based on an early, multi-source extraction anchored in "你的灯亮着吗：如何找到真问题".
 ---
 
 # Real Problem Discovery
 
-Use this skill before solving, decomposing, or designing a solution. Its job is to prevent the agent and user from solving the wrong problem.
+## Purpose
 
-Before using this skill in coaching mode, ask the user for a short initial judgment: "What do you currently think the real problem is?" Then compare that judgment with the discovery output. Skip this only when the user explicitly wants direct execution.
+Reduce the risk of solving the wrong problem. Produce a better working problem definition based on current evidence; do not claim to have found a single, final, essential, or fully proven "real problem."
 
-Use `structured-problem-framing` after this skill once the real problem is clear enough to decompose. Use `critical-questioning` when the suspected problem rests on weak evidence. Use `hrbp-business-diagnosis` or `effective-manager-operating-system` when the discovered problem sits in HRBP, organization, or management rhythm.
+Treat a problem as a meaningful gap, for a specific stakeholder, between the current condition they perceive and the condition they expect or need.
 
-Do not summarize the source books or quote long passages from them. Treat the book-derived material as method inspiration, and write in your own words.
+## Mandatory First-Pass Contract
+
+In the first response:
+
+1. Stay in discovery. Do not design a full solution, intervention, experiment, action plan, KPI system, meeting redesign, training program, or HR process.
+2. Separate observed facts, factual claims needing verification, interpretations, cause guesses, and proposed solutions.
+3. State the stakeholder's perceived current condition, desired condition, and meaningful gap.
+4. Produce at least three provisional problem definitions.
+5. Select one best working definition with a confidence level and say what could change it.
+6. Recommend no more than one small evidence check.
+7. Stop and hand off to the next Skill. Do not execute the downstream Skill in the same response unless the user explicitly asks.
+
+In coaching mode, first ask the user: "What do you currently think the problem is?" Skip this only when the user explicitly wants direct execution.
 
 ## Workflow
 
-1. Capture the raw signal.
-   - State the exact symptom, complaint, request, or proposed solution.
-   - Separate what was observed from what was interpreted.
-   - Identify who raised it and who feels the pain.
+1. Classify the raw signal.
+   - Preserve the exact complaint, symptom, request, or proposed solution.
+   - Label what is directly observed and what still needs verification.
+   - Label interpretations, cause guesses, and solution-shaped language.
+   - Ask: if the proposed solution were forbidden, what gap would still matter?
 
-2. Strip solution-shaped framing.
-   - Detect when the input already assumes a solution, such as "we need a dashboard", "we need training", "we need a meeting system", or "people need to change".
-   - Convert it back into a problem question.
-   - Ask: If this solution were forbidden, what problem would still need attention?
+2. Identify the stakeholder and perceived gap.
+   - Who raised the issue?
+   - Who directly experiences the consequence?
+   - What current condition do they perceive?
+   - What condition do they expect or need?
+   - What consequence makes the gap worth attention?
 
-3. Identify problem owners and affected users.
-   - Name the person or group experiencing the problem.
-   - Name the person or group responsible for solving or owning it.
-   - Check whether the requester, user, owner, and beneficiary are different people.
-   - Ask whether this is the user's problem, the manager's problem, the organization's problem, or the agent's inferred problem.
+3. Check ownership and willingness.
+   - Distinguish requester, affected person, owner, solver, and beneficiary.
+   - Ask whether the affected person and decision owner actually want the gap reduced.
+   - Ask who benefits if the current condition remains unchanged.
+   - Do not take over a problem that another person can and should own.
 
-4. Locate the scenario and job.
-   - Ask who is trying to do what, in what context, under what constraint.
-   - Identify current workaround, friction, delay, risk, emotional cost, and business cost.
-   - Avoid abstract needs without a real situation.
+4. Generate provisional problem definitions.
+   - Produce at least three formulations that vary stakeholder, scope, or level.
+   - Write each as a gap and consequence, not as an unproven cause or preferred solution.
+   - Include one uncomfortable but plausible formulation when relevant.
+   - Treat every formulation as provisional.
 
-5. Generate alternative problem statements.
-   - Produce at least 3 possible versions of the real problem.
-   - Vary the level: individual behavior, role clarity, process, incentive, information flow, capability, system, business priority, or customer need.
-   - Include one uncomfortable but plausible interpretation.
+5. Compare the definitions.
+   - Which definition is most directly supported by current evidence?
+   - Which matters enough to act on?
+   - Which is within the user's legitimate influence?
+   - Which avoids hard-to-verify motivation labels?
+   - Which proposed solution might create a new problem?
 
-6. Test whether the problem is real.
-   - Ask what would happen if nothing changed.
-   - Ask who would notice and what metric, behavior, or decision would be affected.
-   - Check whether there is enough pain, frequency, cost, or strategic relevance to justify action.
-   - If the problem is interesting but not worth solving now, say so.
+6. Select a working definition.
+   - Choose the most useful current formulation, not the deepest-sounding one.
+   - State confidence as high, medium, or low.
+   - State what missing evidence could materially change it.
 
-7. Test whether the problem is actionable.
-   - Check whether the user has influence over any variable.
-   - Separate hard-to-verify human motivation claims from observable system variables.
-   - Prefer action cuts that are observable, changeable, and reviewable.
+7. Route the next step.
+   - Use `structured-problem-framing` when the working definition is clear enough to decompose.
+   - Use `critical-questioning` when a key claim or causal explanation needs evidence review.
+   - Use `hrbp-business-diagnosis` for HRBP or organization diagnosis after the problem is accepted.
+   - Use `effective-manager-operating-system` for management rhythm redesign after the problem is accepted.
+   - Stop or watch when the gap is not worth solving now.
 
-8. Decide the next thinking step.
-   - If the real problem is clear, hand off to `structured-problem-framing`.
-   - If evidence is weak, hand off to `critical-questioning`.
-   - If it is a management rhythm issue, hand off to `effective-manager-operating-system`.
-   - If it is an HRBP/organization issue, hand off to `hrbp-business-diagnosis`.
-   - If it is not worth solving now, recommend stopping or watching.
+## Required Output Format
 
-## Output Format
-
-Use this structure unless the user asks for another format:
+Use this exact structure in the first pass unless the user explicitly asks for another format:
 
 ```markdown
-**Initial Judgment Check**
-- User's current real-problem guess:
-- Skill's working view:
-- What changed:
+**原始信号分类**
+- 已观察事实：
+- 待核实的事实性陈述：
+- 解释或原因猜测：
+- 已提出的方案：
 
-**Raw Signal**
-- Symptom / request / proposed solution:
-- Observed facts:
-- Interpretations:
-- Who raised it:
-- Who feels the pain:
+**谁的什么差距**
+- 提出者：
+- 直接承受影响的人：
+- 感知到的当前状态：
+- 期望状态：
+- 差距造成的影响：
 
-**Problem Owner And User**
-- Requester:
-- Affected user:
-- Owner:
-- Beneficiary:
-- Possible mismatch:
+**三个暂定问题定义**
+1.
+2.
+3.
 
-**Scenario And Need**
-- Who:
-- Situation:
-- Job to be done:
-- Current workaround:
-- Friction / cost:
-- Constraint:
+**当前工作定义**
+- 最值得先处理的定义：
+- 选择理由：
+- 置信度：
+- 什么证据会改变它：
 
-**Alternative Problem Statements**
-1. 
-2. 
-3. 
-
-**Reality Test**
-- What happens if nothing changes:
-- Evidence that pain is real:
-- Evidence missing:
-- Is it worth solving now:
-
-**Actionability Test**
-- Hard-to-verify human explanation:
-- Observable system variable:
-- What the user can influence:
-- First small check:
-
-**Recommended Next Step**
-- Best current problem statement:
-- Confidence:
-- Next skill / action:
+**只做一个最小检查**
+- 检查：
+- 定义被接受后的下一 Skill：
 ```
 
 ## Quality Bar
 
-A good output should:
+A good first-pass output must:
 
-- prevent premature solution design;
-- distinguish symptom, interpretation, request, and real problem;
-- identify whose problem it is;
-- anchor needs in real scenarios and constraints;
-- generate multiple plausible problem statements;
-- prefer observable and changeable variables over hard-to-verify motivation claims;
-- say when a problem is not worth solving now;
-- hand off cleanly to the next Thinking Map step.
+- distinguish the signal from its interpretation and proposed solution;
+- identify a specific stakeholder and meaningful gap;
+- provide at least three provisional definitions;
+- avoid presenting one plausible cause as a diagnosis;
+- avoid words such as "root cause," "essence," or "the real problem is" unless unusually strong evidence exists;
+- state uncertainty and what could change the working definition;
+- propose only one evidence check;
+- stop before solution design.
 
 ## When Not To Use
 
-Do not use this skill when:
+Do not use this Skill when:
 
 - the problem is already clearly defined and only needs decomposition;
 - the user needs a finished communication draft;
-- the task is a narrow execution request with low ambiguity;
-- the user already has strong evidence and needs decision review, not discovery;
-- legal, medical, financial, or safety-critical issues require professional standards or current external sources.
+- the task is narrow execution with low ambiguity;
+- strong evidence already exists and the user needs decision review rather than discovery;
+- legal, medical, financial, or safety-critical issues require current professional standards.
 
 ## Source Notes
 
-For source grounding and skill boundaries, read `references/method-notes.md`. It records the source books, WeRead book ids, reading states, chapter anchors, extraction boundaries, and the Human Learning Card link.
+Read `references/method-notes.md` for source grounding and boundaries. Read `references/source-audit-20260716.md` before making source-fidelity or maturity claims.

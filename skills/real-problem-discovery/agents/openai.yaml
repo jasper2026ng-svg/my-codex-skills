@@ -1,4 +1,4 @@
 interface:
   display_name: "Real Problem Discovery"
-  short_description: "Find the real problem behind symptoms."
-  default_prompt: "Use $real-problem-discovery to find the real problem behind this symptom or request."
+  short_description: "Build a better provisional problem definition."
+  default_prompt: "Use $real-problem-discovery to classify this signal, give three provisional problem definitions, select one working definition, recommend one evidence check, and stop before solution design."
