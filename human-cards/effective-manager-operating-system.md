@@ -1,71 +1,51 @@
-# Human Learning Card: Effective Manager Operating System
+# 人的学习卡：管理者运行机制
 
-Linked agent skill: `effective-manager-operating-system`
+关联 Agent Skill：`effective-manager-operating-system`
 
-## What This Helps You Learn
+## 来源与当前可信度
 
-Judge whether a manager's time, meetings, decisions, and delegation are producing the right contribution.
+- 《卓有成效的管理者》84/100，B；个人阅读 99%、划线 60 条；
+- 《别让猴子跳回背上》67/100，C；个人读完、划线 21 条；
+- 《格鲁夫给经理人的第一课》约 90/100，A，但个人阅读与划线均为 0；
+- 格鲁夫现作为运行机制主来源，支撑团队产出、管理杠杆、指标、会议、决策和任务成熟度；但尚未进入个人内化；
+- 德鲁克支撑贡献、时间和优先级，“猴子”只支撑下一行动责任；
+- 完整节奏与输出模板仍由 Agent 综合；
+- 当前 Skill 质量暂评约 83/100，但人的掌握程度仍低于 Agent 的执行程度。
 
-## Core Human Judgment
+## 一句话定义
 
-The key skill is seeing management as an operating system, not as personal busyness, charisma, or constant firefighting.
+检查管理者的时间、指标、会议、决策、辅导和委派是否真正提高团队产出，再只修改最有杠杆的运行机制。
 
-## 3 Principles To Internalize
+## 核心判断
 
-1. Effectiveness starts with contribution, not activity.
-2. Meetings need outputs: decisions, ownership, learning, or coordination.
-3. Delegation fails when the next action, owner, freedom level, or follow-up is unclear.
+忙碌不等于贡献；委派下一行动也不等于管理者卸下最终责任。
 
-## When To Use
+## 三个原则
 
-- Meetings are too many, too vague, or too low-output.
-- Work keeps bouncing back to the manager.
-- Decisions are slow, repeated, or over-escalated.
-- The manager has no protected time for important contribution.
+1. 先问管理者必须贡献什么，再问时间花在哪里；
+2. 管理活动的价值取决于它能改善多少团队产出，而不是管理者本人有多忙；
+3. 每个会议必须有明确目的和输出；
+4. 委派方式要匹配这个人在这项任务上的成熟度，并同时明确权限、资源、责任人和复查时间。
 
-## When Not To Use
-
-- The issue is mainly legal, compliance, or disciplinary.
-- The manager has no authority to change cadence or decision rights.
-- The real issue is strategy, incentives, or capability rather than rhythm.
-
-## Before Asking The Agent
-
-Write your 30-second initial judgment:
+## 请求 Agent 前，我先写
 
 ```text
-The manager's real contribution should be...
-The biggest time leak is...
-The meeting/rhythm I would change first is...
-The work that should not return to the manager is...
+管理者最重要的贡献是：
+团队最需要改善的产出和指标是：
+最高杠杆的管理活动是：
+最大的时间浪费是：
+最需要调整的会议是：
+不应回到管理者身上的下一行动是：
+团队成员还缺少的能力或权限是：
+他在这项任务上的成熟度是：
 ```
 
-## After The Agent Responds
+## 反向讲解
 
-Compare:
+1. 活动量与管理贡献有什么区别？
+2. 一个周期性会议至少要产出什么？
+3. 为什么“猴子留给下属”不能理解成推卸责任？
 
-- Did the agent define the manager's contribution differently?
-- Which meeting or rhythm has the weakest output?
-- Which "monkey" has unclear ownership?
-- Which one-week experiment would you actually try?
+## 迁移测试
 
-## Teach-Back
-
-Without looking at the skill, answer:
-
-1. How do you distinguish contribution from activity?
-2. What must every recurring meeting produce?
-3. What information is needed before delegating a "monkey" properly?
-
-## Transfer Test
-
-Take one real management routine. Before using the agent, write:
-
-- purpose;
-- owner;
-- output;
-- decision right;
-- follow-up rule;
-- one thing to stop.
-
-Then use the agent to critique the operating rhythm.
+选择一个真实管理节奏，独立写出目的、输入、输出、责任人、决策权和跟进规则，再让 Agent 审查是否需要调整。

@@ -1,4 +1,4 @@
 interface:
   display_name: "Critical Questioning"
-  short_description: "Audit claims, evidence, assumptions, and conclusions."
-  default_prompt: "Use $critical-questioning to test this argument before we rely on it."
+  short_description: "Audit the reasoning that could change a decision."
+  default_prompt: "Use $critical-questioning to test this argument and prioritize the three to five questions most likely to change the decision."

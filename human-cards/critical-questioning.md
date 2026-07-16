@@ -1,69 +1,46 @@
-# Human Learning Card: Critical Questioning
+# 人的学习卡：批判性提问
 
-Linked agent skill: `critical-questioning`
+关联 Agent Skill：`critical-questioning`
 
-## What This Helps You Learn
+## 来源与当前可信度
 
-Test whether a claim, diagnosis, proposal, or conclusion is actually supported.
+- 主来源：《学会提问（原书第11版）》；
+- 个人阅读进度 35%，个人划线 19 条；
+- 书籍质量 88/100，A；可转 Skill 性强；
+- 论题、结论、理由、歧义、假设、证据和遗漏信息来自书中；
+- 业务优先级、置信度和最小验证由 Agent 综合；
+- 当前 Skill 质量约 83/100，是现有套件中来源最扎实的一个，但人的内化仍不足。
 
-## Core Human Judgment
+## 一句话定义
 
-The key skill is holding a plausible claim as a hypothesis until evidence, assumptions, and alternatives have been checked.
+把一个判断拆成结论、理由、证据和假设，再找出最可能改变重要决定的少数问题。
 
-## 3 Principles To Internalize
+## 核心判断
 
-1. Separate issue, conclusion, reasons, evidence, and assumptions.
-2. Turn vague or emotional terms into observable criteria.
-3. Always ask what else could explain the same facts.
+批判性提问不是反驳别人，而是让自己和别人都不把“可能正确”误当成“已经证明”。
 
-## When To Use
+## 三个原则
 
-- A meeting conclusion feels too quick.
-- A diagnosis blames people, culture, or attitude.
-- A proposal relies on anecdotes, authority, or one metric.
+1. 缺少证据不等于结论一定错误；
+2. 抽象或情绪化词语必须转成可观察标准；
+3. 同一组事实至少要考虑其他解释。
 
-## When Not To Use
-
-- The task is low stakes and obvious.
-- The user needs creative generation, not review.
-- Current external standards are required before judging.
-
-## Before Asking The Agent
-
-Write your 30-second initial judgment:
+## 请求 Agent 前，我先写
 
 ```text
-The main claim is...
-The weakest evidence is...
-The hidden assumption might be...
-An alternative explanation is...
+主要结论是：
+给出的理由是：
+最薄弱的证据是：
+隐藏假设可能是：
+一个替代解释是：
 ```
 
-## After The Agent Responds
+## 反向讲解
 
-Compare:
+1. 事实分歧和价值分歧有什么区别？
+2. 为什么弱证据不能直接证明结论错误？
+3. 哪三个问题最可能改变当前决定？
 
-- Did the agent identify a different main conclusion?
-- Which assumption is most dangerous if false?
-- Which alternative explanation is worth checking first?
-- What would make your confidence higher or lower?
+## 迁移测试
 
-## Teach-Back
-
-Without looking at the skill, answer:
-
-1. Why is missing evidence different from a false conclusion?
-2. How do you distinguish value disagreement from factual disagreement?
-3. What question helps prevent false causality?
-
-## Transfer Test
-
-Take one real workplace claim. Before using the agent, write:
-
-- claim;
-- evidence offered;
-- two assumptions;
-- two alternative explanations;
-- confidence level.
-
-Then use the agent to audit your reasoning.
+选一个真实工作判断，独立写出结论、证据、两个假设、两个替代解释和置信度，再让 Agent 只补充遗漏。

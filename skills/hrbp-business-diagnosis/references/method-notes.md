@@ -2,6 +2,8 @@
 
 ## Sources
 
+Source quality and provenance were re-audited on 2026-07-16. Read `source-audit-20260716.md` for the uneven quality and reading coverage across the source set.
+
 Primary source:
 
 - 《业务为本：华为和阿里的HRBP价值创造三层十二式》
@@ -24,10 +26,18 @@ Supporting sources:
 - User reading state at extraction: about 90% progress
 - User notes available at extraction: 5 highlights
 
-Light structural references:
+Organization capability source:
+
+- 《组织能力的杨三角：企业持续成功的秘诀 第3版》, bookId `3300161461`, reading state about 3%, 0 highlights
+
+Light structural reference:
 
 - 《HRBP是这样炼成的之中级修炼》, bookId `25081273`, reading state 0%
-- 《组织能力的杨三角：企业持续成功的秘诀 第3版》, bookId `3300161461`, reading state about 3%
+
+Model and evidence reference:
+
+- 《组织诊断：企业健康的衡量方法、模型与实践》, bookId `3300019623`, reading state about 99%, 44 highlights
+- The book has high personal relevance but weak public quality signals: 24 ratings with more poor than good ratings, and repeated complaints about model compilation and shallow logic. Use it as a catalog and checklist, not as a final authority.
 
 Extraction date: 2026-07-12
 
@@ -56,8 +66,16 @@ From HR as shared management responsibility:
 
 From organization capability thinking:
 
-- Diagnose willingness, capability, and system support.
+- Derive the required organization capability from the business strategy or operating priority.
+- Diagnose employee ability, employee mindset/motivation, and governance/environment.
+- Translate each dimension into observable behavior and mechanisms.
 - Organization issues often sit across talent, structure, process, incentive, culture, and leadership behavior.
+
+From organization diagnosis references:
+
+- Choose a model based on the question; do not stack multiple models by default.
+- Use business, organization-mechanism, and people evidence together.
+- Treat surveys and model scores as signals requiring interpretation, not as diagnoses by themselves.
 
 ## Skill Boundary
 

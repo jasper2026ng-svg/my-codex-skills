@@ -1,68 +1,46 @@
-# Human Learning Card: Pyramid Communication
+# 人的学习卡：金字塔表达
 
-Linked agent skill: `pyramid-communication`
+关联 Agent Skill：`pyramid-communication`
 
-## What This Helps You Learn
+## 来源与当前可信度
 
-Turn scattered thinking into answer-first communication that others can understand and act on.
+- 主来源：《金字塔原理》；
+- 个人阅读进度 73%，个人划线 44 条；
+- 书籍质量 89/100，A；可转 Skill 性强；
+- 结论先行、以上统下、归类分组、逻辑顺序和 SCQ 来自原书；
+- 老板更新、会议结论和幻灯片故事线模板由 Agent 综合；
+- 当前 Skill 质量约 84/100，是现有套件中最接近稳定可用的一项。
 
-## Core Human Judgment
+## 一句话定义
 
-The key skill is not formatting. The key skill is deciding what the audience must understand first and what support truly belongs under it.
+先确定受众需要理解或决定什么，再用一个明确答案和同一逻辑下的支持点组织表达。
 
-## 3 Principles To Internalize
+## 核心判断
 
-1. Put the answer before the explanation.
-2. Make every heading a real claim, not a topic label.
-3. Group ideas by one logic at each level.
+金字塔表达不是排版技巧。真正困难的是确定顶层答案、删掉无关信息，并确保下层内容真的支持上层结论。
 
-## When To Use
+## 三个原则
 
-- You need to brief a boss or business leader.
-- Meeting notes need to become decisions and actions.
-- A long message has correct content but weak structure.
+1. 答案要尽早明确，但不等于所有场景第一句话都必须亮结论；
+2. 每个标题应是一个判断，而不是一个主题标签；
+3. 同一层的内容必须使用同一种分组逻辑。
 
-## When Not To Use
-
-- You do not yet know the conclusion.
-- The core reasoning is weak and needs review first.
-- The task is emotional expression or creative writing.
-
-## Before Asking The Agent
-
-Write your 30-second initial judgment:
+## 请求 Agent 前，我先写
 
 ```text
-The audience is...
-The action I want is...
-The one sentence they should remember is...
-The top three supports are...
+受众是：
+希望对方采取的行动是：
+最应该记住的一句话是：
+三个主要支持点是：
+对方可能提出的问题是：
 ```
 
-## After The Agent Responds
+## 反向讲解
 
-Compare:
+1. 主题标题和判断标题有什么区别？
+2. 怎样判断三个支持点属于同一逻辑层？
+3. 哪些受众需要先给少量情境，再给答案？
 
-- Did the agent choose the same top answer?
-- Which supporting point did it remove or demote?
-- Are the headings real claims?
-- Would the audience know what to do next?
+## 迁移测试
 
-## Teach-Back
-
-Without looking at the skill, answer:
-
-1. What is the difference between a topic heading and a claim heading?
-2. What makes a group of points logically coherent?
-3. When should you add context before the answer?
-
-## Transfer Test
-
-Take a messy meeting note. Before using the agent, write:
-
-- top answer;
-- audience question;
-- three support branches;
-- final ask.
-
-Then use the agent only to tighten the storyline.
+选择一份杂乱会议记录，独立写出顶层答案、受众问题、三个支持分支和最终请求，再让 Agent 只帮助收紧结构。

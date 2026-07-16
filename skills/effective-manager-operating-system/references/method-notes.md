@@ -2,7 +2,9 @@
 
 ## Sources
 
-Primary source:
+Source quality and provenance were re-audited on 2026-07-16. Read `source-audit-20260716.md` for the separate judgments on Drucker, monkey management, and Grove.
+
+Effectiveness source:
 
 - 《卓有成效的管理者》
 - Author: Peter Drucker
@@ -10,20 +12,22 @@ Primary source:
 - User reading state at extraction: about 99% progress
 - User notes available at extraction: 60 highlights
 
-Supporting sources:
-
-- 《别让猴子跳回背上：为什么领导没时间，下属没事做？（经典版）》
-- Author: William Oncken III
-- WeRead bookId: `622120`
-- User reading state at extraction: 100% progress
-- User notes available at extraction: 21 highlights
+Operating-structure source:
 
 - 《格鲁夫给经理人的第一课（畅销版）》
 - Author: Andy Grove
 - WeRead bookId: `914561`
 - User reading state at extraction: 0% progress
 - User notes available at extraction: 0 highlights
-- Use only as light structural inspiration for output, meetings, and management cadence.
+- This is the main structural source for team output, leverage, indicators, meeting purposes, planning, decision processes, and task-relevant maturity. It is not yet user-internalized.
+
+Narrow delegation source:
+
+- 《别让猴子跳回背上：为什么领导没时间，下属没事做？（经典版）》
+- Author: William Oncken III
+- WeRead bookId: `622120`
+- User reading state at extraction: 100% progress
+- User notes available at extraction: 21 highlights
 
 Extraction date: 2026-07-12
 
@@ -50,9 +54,12 @@ From monkey management:
 
 From high-output management:
 
-- management output depends on team output
-- meetings are tools with different purposes
-- decisions and planning need operating rhythm
+- management output is the output of the manager's team and materially influenced teams
+- management activities should be judged by leverage
+- a small set of indicators helps expose operating problems
+- recurring process meetings and one-off mission meetings serve different purposes
+- 1:1s, decisions, planning, training, and performance discussions are production mechanisms, not administrative decoration
+- management style should vary with task-relevant maturity
 
 ## Skill Boundary
 

@@ -1,11 +1,16 @@
 ---
 name: hrbp-business-diagnosis
-description: Diagnose HRBP, organization, talent, performance, staffing, morale, retention, capability, manager, incentive, and execution issues from the business context. Use when the user asks to translate HR symptoms into business problems, support a sales or operations leader, diagnose organization capability gaps, decide whether an issue is talent/structure/process/incentive/manager behavior, design an HRBP intervention, or prepare business-facing HR recommendations. Based on an MVP extraction from the user's WeRead copies of "业务为本：华为和阿里的HRBP价值创造三层十二式", "人力资源量化管理与数据分析", and related HRBP/organization books.
+description: Translate an accepted HR or organization problem into the business outcome, strategic requirement, required organization capability, competing capability-mindset-governance hypotheses, and evidence needs before designing an intervention. Use for talent, performance, staffing, morale, retention, manager, incentive, and execution issues when enough business context exists. In the first pass, diagnose and stop; design an HRBP intervention only after the user accepts the working diagnosis. Anchored in "业务为本" and "组织能力的杨三角", with "组织诊断" used only as a model and evidence reference.
 ---
 
 # HRBP Business Diagnosis
 
-Use this skill to diagnose an HR or organization symptom from the business context, then propose a focused HRBP intervention that helps the business win. It should translate between business language and HR levers.
+Use this skill first to diagnose an HR or organization symptom from the business context. Propose a focused HRBP intervention only in a second pass after the user accepts or revises the working diagnosis.
+
+## Two-Pass Contract
+
+1. **Diagnosis pass:** complete business translation, context, competing organization hypotheses, evidence gaps, and one minimum check. Do not design a full HR program.
+2. **Intervention pass:** continue only after the user accepts or revises the working diagnosis. Then choose one or two focused levers, owners, success signals, and risks.
 
 Before using this skill in coaching mode, ask the user for a short initial judgment: "What business problem do you think sits behind this HR symptom?" Then compare the user's judgment with the skill output. Skip this only when the user explicitly wants direct execution.
 
@@ -25,40 +30,46 @@ Do not summarize the source books or quote long passages from them. Treat the bo
    - Ask what "winning" means in this unit now.
    - Avoid HR solutions before understanding the business pressure.
 
-3. Map the organization capability gap.
-   - Diagnose whether the gap is mainly willingness, capability, opportunity, structure, process, incentive, culture, leadership behavior, or resource mismatch.
-   - Check the three organization capability questions:
-     - Do people want to do it?
-     - Can people do it?
-     - Does the system allow and reinforce it?
+3. Derive the required organization capability.
+   - State the strategic or operating priority the business must deliver.
+   - Ask what the organization must be consistently good at to deliver it: speed, customer intimacy, channel execution, innovation, cost discipline, cross-functional coordination, local adaptation, talent replication, or another specific capability.
+   - Describe the observable behaviors and operating outcomes that would demonstrate this capability.
+   - Do not start with an HR module or a generic list of competencies.
 
-4. Separate people, role, and system issues.
-   - People: skill, motivation, values, potential, retention risk.
-   - Role: unclear expectations, wrong job design, missing decision rights, overload.
-   - System: incentives, process, manager cadence, reporting line, tools, data, hiring pipeline.
-   - Do not over-personalize system problems.
+4. Diagnose the capability gap with one primary model.
+   - Ability: do we have and develop the required skills, experience, and talent density?
+   - Mindset and motivation: do people want to behave in the required way, and do incentives, consequences, identity, and leadership signals reinforce it?
+   - Governance and environment: do structure, roles, decision rights, process, information, tools, resources, and manager cadence allow it?
+   - Use people / role / system only as a practical sub-check within these three dimensions.
+   - Do not stack the Yang triangle, six boxes, 7S, BLM, and other models in one diagnosis. Choose one primary lens and use another only if a specific blind spot remains.
 
 5. Test evidence.
    - Identify what evidence exists and what is missing.
-   - Useful evidence may include attrition data, performance distribution, productivity metrics, manager interviews, employee feedback, hiring funnel, compensation position, workload, customer or sales data, and execution cycle time.
+   - Check three evidence layers: business outcomes, organization mechanisms, and people signals.
+   - Useful evidence may include revenue or productivity movement, execution cycle time, customer impact, decision delays, workflow and role data, manager interviews, employee behavior, performance distribution, hiring funnel, workload, incentives, and attrition.
    - Treat anecdotes as signals, not proof.
 
-6. Choose HRBP leverage.
+6. Stop and confirm the working diagnosis.
+   - State the best current diagnosis and confidence.
+   - State what evidence could change it.
+   - Recommend only one minimum check.
+
+7. Choose HRBP leverage after confirmation.
    - Match the intervention to the diagnosis.
    - Possible levers: role clarity, manager coaching, talent review, hiring profile, onboarding, performance mechanism, incentive adjustment, capability building, communication, org design, succession, retention, or meeting/operating rhythm.
    - Prefer one or two high-leverage interventions over a broad HR program.
 
-7. Design the smallest useful intervention.
+8. Design the smallest useful intervention.
    - Define target population, owner, timeline, success signal, risk, and business-facing language.
    - Include what HRBP will do, what business manager must do, and what should not be owned by HR alone.
 
-8. Produce the recommendation.
+9. Produce the recommendation.
    - Start with the business problem.
    - Show the organization diagnosis.
    - Recommend focused HRBP action.
    - End with the manager decision or support needed.
 
-## Output Format
+## First-Pass Output Format
 
 Use this structure unless the user asks for another format:
 
@@ -78,46 +89,45 @@ Use this structure unless the user asks for another format:
 - What is missing:
 - Assumptions:
 
-**Organization Capability Diagnosis**
-| Dimension | Signal | Likely gap | Evidence needed |
-|---|---|---|---|
-| Willingness | | | |
-| Capability | | | |
-| System / opportunity | | | |
+**Strategy And Required Capability**
+- Strategic / operating priority:
+- Required organization capability:
+- Observable behavior and operating result:
 
-**People / Role / System Split**
-- People issue:
-- Role issue:
-- System issue:
+**Competing Diagnosis Hypotheses**
+| Hypothesis | Current signal | Evidence needed | What would weaken it |
+|---|---|---|---|
+
+**Capability Gap Split**
+- Ability:
+- Mindset / motivation:
+- Governance / environment:
+- People / role / system sub-check:
 - Risk of misdiagnosis:
 
-**HRBP Leverage Options**
-| Option | Business logic | Owner | Tradeoff |
-|---|---|---|---|
+**Current Working Diagnosis**
+- Diagnosis:
+- Confidence:
+- What could change it:
 
-**Recommended Intervention**
-- Intervention:
-- Target group:
-- HRBP role:
-- Business manager role:
-- Timeline:
-- Success signal:
-- Risk:
-
-**Questions Before Action**
-1. 
-2. 
-3. 
+**One Minimum Check**
+- Check:
+- Continue to intervention design only after:
 ```
+
+For the second pass, add focused leverage options, the selected intervention, HRBP role, business manager role, timeline, success signal, and risk.
 
 ## Quality Bar
 
 A good output should:
 
 - translate HR language into business language;
+- derive organization capability from a specific business priority;
 - resist jumping from symptom to HR program;
-- separate people problems from system and manager problems;
+- distinguish ability, mindset, and governance while preserving people-role-system detail;
+- use one primary diagnostic model instead of stacking frameworks;
 - name what evidence would change the diagnosis;
+- stop after diagnosis in the first pass;
 - produce a focused intervention with clear business owner and HRBP owner;
 - avoid treating HRBP as a service desk when business ownership is required;
 - fit sales, operations, emerging-market execution, cross-cultural management, and HRBP contexts when relevant.
@@ -134,4 +144,4 @@ Do not use this skill when:
 
 ## Source Notes
 
-For source grounding and skill boundaries, read `references/method-notes.md`. It records the source books, WeRead book ids, reading states, chapter anchors, extraction boundaries, and the Human Learning Card link.
+For source grounding and skill boundaries, read `references/method-notes.md` and `references/source-audit-20260716.md`. The audit records the source hierarchy, the limited role of the organization-diagnosis model catalog, and which parts of the workflow remain Agent synthesis.

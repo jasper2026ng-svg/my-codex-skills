@@ -1,8 +1,26 @@
 # Method Notes
 
-## Source
+## Sources
 
-Primary source:
+Source quality and provenance were re-audited on 2026-07-16. Read `source-audit-20260716.md`; the source hierarchy now separates decision process, consequence accountability, and bias calibration.
+
+Decision-process source:
+
+- 《卓有成效的管理者》
+- Author: Peter Drucker
+- WeRead bookId: `25131310`
+- User reading state: about 99% progress
+- User notes: 60 highlights, including direct notes on effective decisions
+
+Consequence and accountability source:
+
+- 《非对称风险》
+- Author: Nassim Nicholas Taleb
+- WeRead bookId: `23934823`
+- User reading state: about 27% progress
+- User notes: 9 highlights
+
+Bias-calibration sources:
 
 - 《好的决策》
 - Author: 夏栋
@@ -12,9 +30,11 @@ Primary source:
 - User notes available at extraction: 12 highlights, 0 personal reviews
 - Extraction date: 2026-07-12
 
-This is an MVP skill. Treat the source as a method anchor, not a complete decision science doctrine. Do not quote the book at length.
+- 《思考，快与慢》, Daniel Kahneman, WeRead `573975`, user progress 0%, 0 highlights
 
-## Chapter Anchors
+This is a multi-source review skill, not a complete decision science doctrine. Do not quote the books at length.
+
+## Bias Chapter Anchors
 
 Relevant chapter structure observed in WeRead:
 
@@ -29,6 +49,22 @@ Relevant chapter structure observed in WeRead:
 - 尾声 建立元认知 把自己当作变量
 
 ## Method Anchors
+
+From effective decisions:
+
+- Decide whether action is needed.
+- Distinguish recurring issues that need a rule from truly exceptional cases.
+- Define boundary conditions before choosing.
+- Seek disagreement and alternatives.
+- Think through the right answer before negotiating acceptable compromise.
+- Convert a decision into action, responsibility, and communication.
+- Use feedback to compare reality with the assumptions behind the decision.
+
+From consequence asymmetry:
+
+- Decision authority and exposure to failure consequences should not be radically separated.
+- Check who receives upside and who bears downside.
+- Avoid interventions whose downside can compound or become ruinous.
 
 From the source and user highlights:
 

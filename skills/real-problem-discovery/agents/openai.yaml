@@ -1,4 +1,4 @@
 interface:
   display_name: "Real Problem Discovery"
-  short_description: "Build a better provisional problem definition."
-  default_prompt: "Use $real-problem-discovery to classify this signal, give three provisional problem definitions, select one working definition, recommend one evidence check, and stop before solution design."
+  short_description: "Find the most useful current problem level and gap."
+  default_prompt: "Use $real-problem-discovery to classify this signal, distinguish event-pattern-structure-key challenge, give three provisional problem definitions, select one working definition, recommend one evidence check, and stop before solution design."

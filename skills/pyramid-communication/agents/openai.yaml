@@ -1,4 +1,4 @@
 interface:
   display_name: "Pyramid Communication"
-  short_description: "Turn complex thinking into answer-first communication."
-  default_prompt: "Use $pyramid-communication to structure this message so the conclusion is clear."
+  short_description: "Make the answer and support logic easy to grasp."
+  default_prompt: "Use $pyramid-communication to make the answer explicit early, adapt the opening to the audience, and organize the support by one clear logic."

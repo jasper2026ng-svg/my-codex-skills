@@ -1,69 +1,57 @@
-# Human Learning Card: First Principles Reframing
+# 人的学习卡：第一性原理重构
 
-Linked agent skill: `first-principles-reframing`
+关联 Agent Skill：`first-principles-reframing`
 
-## What This Helps You Learn
+## 来源与当前可信度
 
-Challenge inherited assumptions and rebuild options from basic facts and true constraints.
+- 入门概念来源：《半小时讲透第一性原理（轻思维）》；
+- 个人阅读进度 96%，个人划线 0 条；
+- 书籍质量 55/100，C，只适合作为入门提示；
+- 《系统之美》是主要校准来源，个人读完、划线 7 条；《表象与本质》用于校准类比与抽象，但个人尚未阅读；
+- 识别假设、追问事实、重新构建来自入门书；反馈、延迟、非线性和系统边界来自《系统之美》；
+- 事实分类、硬软约束、方案权衡和最小实验仍由 Agent 综合；
+- 当前 Skill 质量暂评约 74/100，已可测试使用，但不能声称已形成成熟第一性原理方法。
 
-## Core Human Judgment
+## 一句话定义
 
-The key skill is deciding which constraints are real and which are just habit, fear, preference, or legacy process.
+当现有做法明显受惯例限制时，把目标与当前方法分开，检查哪些约束是真的，再从较稳定的事实重新构造可测试的方案。
 
-## 3 Principles To Internalize
+## 核心判断
 
-1. Separate the goal from the current method.
-2. Classify claims as facts, assumptions, preferences, constraints, or unknowns.
-3. Rebuild options that satisfy hard constraints while challenging soft constraints.
+第一性原理不是寻找绝对真理，也不是每次都从零开始。最难的是判断哪些事实足够稳定、模型边界是否合适，以及新方案会不会被反馈、延迟和人的适应行为抵消。
 
-## When To Use
+## 三个原则
 
-- The team says "this is how we always do it."
-- A process is stale but no one can explain why it exists.
-- The current solution protects legacy habits more than outcomes.
+1. 目标不等于当前实现方式；
+2. 所谓基本事实也必须有来源、置信度并允许修正；
+3. 拆到“基本事实”后，还要把反馈、延迟、激励和适应重新放回来；
+4. 重构结果必须能够被测试，而不是只显得新颖。
 
-## When Not To Use
+## 什么时候使用
 
-- Compliance, safety, or legal constraints must be followed.
-- The solution is already obvious and low risk.
-- The team needs alignment more than redesign.
+- 现有方法长期效果不好；
+- 大家只能用“以前一直这样”解释做法；
+- 隐含约束明显压缩了解法空间；
+- 问题重要到值得重新构造方案。
 
-## Before Asking The Agent
-
-Write your 30-second initial judgment:
+## 请求 Agent 前，我先写
 
 ```text
-The current solution is...
-The goal behind it is...
-The assumption I most want to challenge is...
-The hard constraint I think is real is...
+目标是：
+当前做法是：
+最想挑战的假设是：
+我认为的硬约束是：
+支持它的证据是：
+我选择的系统边界和时间范围是：
+可能出现的反馈、延迟或适应是：
 ```
 
-## After The Agent Responds
+## 反向讲解
 
-Compare:
+1. 硬约束和软约束有什么区别？
+2. 为什么“基本事实”仍然需要证据？
+3. 什么情况下不值得使用第一性原理？
 
-- Which assumption did the agent challenge that you missed?
-- Did it incorrectly treat a soft constraint as hard, or the reverse?
-- Which rebuilt option feels uncomfortable but plausible?
-- What small test would you actually run?
+## 迁移测试
 
-## Teach-Back
-
-Without looking at the skill, answer:
-
-1. What is the difference between a hard constraint and a soft constraint?
-2. Why is "from scratch" dangerous if you ignore people and execution?
-3. What makes a first-principles option testable rather than just clever?
-
-## Transfer Test
-
-Choose a recurring work process. Write:
-
-- goal;
-- current method;
-- five inherited assumptions;
-- three basic facts;
-- one low-cost alternative.
-
-Then use the agent to critique your classification.
+选择一个惯用流程，独立列出目标、当前方法、五个假设、三个较稳定事实和一个低成本替代方案，再让 Agent 审查分类。

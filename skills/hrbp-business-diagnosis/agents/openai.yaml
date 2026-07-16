@@ -1,4 +1,4 @@
 interface:
   display_name: "HRBP Business Diagnosis"
-  short_description: "Translate HR symptoms into business and organization diagnosis."
-  default_prompt: "Use $hrbp-business-diagnosis to diagnose this HRBP or organization issue from the business context."
+  short_description: "Diagnose the organization capability behind an HR symptom."
+  default_prompt: "Use $hrbp-business-diagnosis for a diagnosis-only first pass: translate the business impact, derive the required organization capability, compare ability-mindset-governance hypotheses, propose one evidence check, and stop before intervention design."

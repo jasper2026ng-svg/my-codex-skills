@@ -1,11 +1,15 @@
 ---
 name: critical-questioning
-description: Audit arguments, claims, proposals, diagnoses, meeting conclusions, HRBP recommendations, strategy choices, and business narratives by testing the issue, conclusion, reasons, assumptions, ambiguous terms, evidence quality, causal logic, missing information, alternative explanations, and reasonable confidence level. Use when the user asks to challenge an argument, review a proposal, check reasoning quality, prepare questions for a meeting, avoid being misled by weak evidence, or turn an opinion into a better-tested judgment. Based on a narrow MVP extraction from the user's WeRead copy of "学会提问（原书第11版）".
+description: Audit arguments, claims, proposals, diagnoses, meeting conclusions, HRBP recommendations, strategy choices, and business narratives by testing the issue, conclusion, reasons, assumptions, ambiguous terms, evidence quality, causal logic, missing information, alternative explanations, and reasonable confidence level. Use when the user wants to challenge an argument or turn an opinion into a better-tested judgment. By default, prioritize the 3 to 5 questions most likely to change the decision. Based on an audited, high-fit extraction from "学会提问（原书第11版）".
 ---
 
 # Critical Questioning
 
 Use this skill to test whether a claim, diagnosis, proposal, or conclusion is well supported. It is a reasoning quality-control tool, not a debate tool. Keep the tone curious and constructive.
+
+## Default Practical Mode
+
+Do not mechanically run the full textbook checklist. Unless the user asks for a comprehensive audit, prioritize the 3 to 5 questions most likely to change an important decision. State what is supported, what remains a hypothesis, and the smallest useful evidence check.
 
 If the problem itself is still vague, use `structured-problem-framing` first. If the user wants to redesign from basic constraints after the argument is challenged, use `first-principles-reframing` after this skill.
 
@@ -96,6 +100,22 @@ Use this structure unless the user asks for another format:
 - Next questions to ask:
 ```
 
+For a practical first pass, compress the same logic into:
+
+```markdown
+**当前判断**
+- 结论：
+- 置信度：
+- 最薄弱的依据：
+
+**最重要的三个问题**
+1.
+2.
+3.
+
+**一个最小检查**
+```
+
 ## Quality Bar
 
 A good output should:
@@ -120,4 +140,4 @@ Do not use this skill when:
 
 ## Source Notes
 
-For source grounding and skill boundaries, read `references/method-notes.md`. It records the source book, WeRead book id, chapter anchors, reading state, and how this skill should interact with `structured-problem-framing` and `first-principles-reframing`.
+For source grounding and skill boundaries, read `references/method-notes.md` and `references/source-audit-20260716.md`. The audit records the strong book-to-task fit and the remaining risk of checklist overload.

@@ -2,6 +2,13 @@
 
 Source: "麦肯锡结构化战略思维：如何想清楚、说明白、做到位" by 周国元.
 
+Calibration sources:
+
+- 《系统之美（全新升级版）》, Donella Meadows, WeRead `3300081407`, user progress about 99%, 7 highlights.
+- 《好战略，坏战略（畅销版）》, Richard Rumelt, WeRead `920922`, user progress about 30%, 7 highlights.
+
+Source quality and provenance were re-audited on 2026-07-16. Read `source-audit-20260716.md` before making maturity or source-fidelity claims.
+
 WeRead book id: `34916572`.
 
 User reading evidence observed on 2026-07-10:
@@ -39,6 +46,8 @@ Use these chapter anchors for future refinement. Do not quote the book at length
 - Preserve uncertainty: if evidence is missing, label the point as a hypothesis.
 - Prefer practical business outputs over elegant frameworks.
 - For the user's context, favor HRBP, sales management, organization diagnosis, industry understanding, and operational execution examples.
+- Do not force all problems into issue trees. Use process, stakeholder, metric, or system representations when they better match the mechanism.
+- Use systems thinking as a calibration for feedback, delays, and nonlinearity, not as a requirement to build a full causal-loop model.
 
 ## Candidate Test Prompts
 

@@ -1,78 +1,50 @@
-# Human Learning Card: Decision Quality Review
+# 人的学习卡：决策质量审查
 
-Linked agent skill: `decision-quality-review`
+关联 Agent Skill：`decision-quality-review`
 
-## What This Helps You Learn
+## 来源与当前可信度
 
-Improve the quality of your decision process before you commit to an important choice.
+- 决策过程主来源改为《卓有成效的管理者》的有效决策章节；个人阅读 99%、划线 60 条，其中多条直接覆盖问题分类、边界条件、异议、妥协、行动和反馈；
+- 《非对称风险》个人阅读 27%、划线 9 条，负责检查决策权与承担后果是否对称；
+- 《思考，快与慢》和《好的决策》只负责认知偏差校准，不再承担完整流程；
+- 方案比较、预演失败和统一输出模板仍由 Agent 综合；
+- 当前 Skill 质量暂评约 80/100，已解决最主要的书源错配，但仍需真实决策结果复盘。
 
-## Core Human Judgment
+## 一句话定义
 
-The key skill is not asking the agent to decide for you. It is learning to notice when your current choice is being shaped by framing, confirmation bias, sunk cost, group pressure, overconfidence, or missing evidence.
+在重要选择前，先明确决策目标、真实选项、证据和取舍，再检查最相关的偏差风险，由人承担最终决定。
 
-## 3 Principles To Internalize
+## 核心判断
 
-1. A good decision starts with a clear decision question and real options.
-2. Strong confidence is not strong evidence.
-3. Before committing, define what would change your mind and what would make you stop or revisit.
+好的结果不一定来自好的决策，坏结果也不自动证明决策错误；我们能控制的是是否识别了问题类型、边界条件、证据、后果和执行反馈。
 
-## When To Use
+## 三个原则
 
-- You have a favored option but want to avoid self-confirmation.
-- A team seems aligned, but you worry the frame or group pressure is too strong.
-- You are deciding whether to continue, stop, delay, or run a small experiment.
-- A decision has emotional charge, sunk cost, reputation risk, or unclear evidence.
+1. 先判断是否真的需要决策，以及这是重复问题还是例外问题；
+2. 先定义边界条件、目标和标准，再比较选项；
+3. 先想清正确答案，再讨论不破坏边界条件的妥协；
+4. 检查谁有决策权、谁得益、谁承担失败后果；
+5. Agent 扩大视野，但不能替人承担价值取舍和后果。
 
-## When Not To Use
-
-- The choice is low-stakes and reversible.
-- You need expert legal, medical, or financial advice.
-- You have not yet defined the real problem.
-- You only need to critique an argument, where `critical-questioning` is better.
-
-## Before Asking The Agent
-
-Write your 30-second initial judgment:
+## 请求 Agent 前，我先写
 
 ```text
-The decision is...
-I would choose...
-My strongest reason is...
-The evidence I trust most is...
-The biggest risk or fear is...
-The evidence that would change my mind is...
+要做的决定是：
+这是重复问题、新形式的重复问题，还是例外：
+必须实现的目标是：
+不能违反的边界条件是：
+当前选项是：
+我倾向的选择及理由是：
+谁有权决定、谁承担后果：
+会改变我的证据是：
 ```
 
-## After The Agent Responds
+## 反向讲解
 
-Compare:
+1. 置信度和证据有什么区别？
+2. 为什么要先定义标准再比较方案？
+3. 什么情况下应行动、试验、延迟或重新定义选项？
 
-- Did the agent define the decision differently?
-- Did it find a hidden frame or false binary?
-- Which bias risk is most relevant?
-- What evidence is missing?
-- Should you act, experiment, delay, or reframe?
+## 迁移测试
 
-## Teach-Back
-
-Without looking at the skill, answer:
-
-1. How do you distinguish confidence from evidence?
-2. What is the current frame of the decision?
-3. What would make you stop, reverse, or revisit the decision?
-
-## Transfer Test
-
-Take one real work decision. Before using the agent, write:
-
-- decision owner;
-- deadline;
-- stakes;
-- options;
-- current leaning;
-- strongest evidence;
-- missing evidence;
-- likely bias;
-- stop or revisit condition.
-
-Then use the agent to audit the decision quality and compare it with your first judgment.
+选择一个真实决定，独立写出目标、标准、选项、证据、相关偏差和复查条件，再让 Agent 审查而不替你做决定。

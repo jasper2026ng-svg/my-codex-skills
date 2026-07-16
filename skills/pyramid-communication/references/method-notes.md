@@ -2,6 +2,8 @@
 
 ## Source
 
+Source quality and provenance were re-audited on 2026-07-16. Read `source-audit-20260716.md` before making maturity or source-fidelity claims.
+
 - Primary source: 《金字塔原理（麦肯锡40年经典培训教材）》
 - Author: Barbara Minto
 - WeRead bookId: `834333`

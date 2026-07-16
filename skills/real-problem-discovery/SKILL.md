@@ -1,6 +1,6 @@
 ---
 name: real-problem-discovery
-description: Construct a better provisional problem definition or need behind a vague symptom, complaint, request, proposed solution, stakeholder demand, user feedback, business pain, HR issue, meeting problem, product request, or operational friction. Use before structured-problem-framing when the issue may be misnamed, solution-shaped, owned by the wrong person, based on assumptions, or missing the affected person's real scenario, expected state, and cost. In the first pass, classify the raw signal, identify the stakeholder gap, give at least three provisional definitions, select one working definition, recommend only one evidence check, and stop before solution design. Based on an early, multi-source extraction anchored in "你的灯亮着吗：如何找到真问题".
+description: Construct a better provisional problem definition behind a vague symptom, complaint, request, proposed solution, stakeholder demand, user feedback, business pain, HR issue, meeting problem, product request, or operational friction. Use before structured-problem-framing when the issue may be misnamed, solution-shaped, owned by the wrong person, or confused across event, recurring pattern, operating structure, and strategic challenge. In the first pass, classify the signal, identify the stakeholder gap, compare at least three provisional definitions, select one working definition, recommend one evidence check, and stop before solution design. Grounded in "你的灯亮着吗", with diagnosis calibration from "好战略，坏战略" and system-level calibration from "系统之美".
 ---
 
 # Real Problem Discovery
@@ -9,7 +9,7 @@ description: Construct a better provisional problem definition or need behind a 
 
 Reduce the risk of solving the wrong problem. Produce a better working problem definition based on current evidence; do not claim to have found a single, final, essential, or fully proven "real problem."
 
-Treat a problem as a meaningful gap, for a specific stakeholder, between the current condition they perceive and the condition they expect or need.
+Treat a problem as a meaningful gap, for a specific stakeholder, between the current condition they perceive and the condition they expect or need. A useful working definition also identifies the level at which intervention is likely to matter: isolated event, recurring pattern, operating structure, or strategic challenge.
 
 ## Mandatory First-Pass Contract
 
@@ -46,25 +46,34 @@ In coaching mode, first ask the user: "What do you currently think the problem i
    - Ask who benefits if the current condition remains unchanged.
    - Do not take over a problem that another person can and should own.
 
-4. Generate provisional problem definitions.
+4. Locate the problem level.
+   - Event: what happened this time?
+   - Pattern: what has repeated across time, teams, customers, or cases?
+   - Operating structure: what process, incentive, information flow, decision right, capacity limit, feedback loop, or delay may keep reproducing the pattern?
+   - Strategic challenge: which important obstacle or concentration of difficulty must be addressed for the desired outcome to become plausible?
+   - Do not automatically prefer the deepest-sounding level. Use the level best supported by evidence and useful for action.
+
+5. Generate provisional problem definitions.
    - Produce at least three formulations that vary stakeholder, scope, or level.
+   - When relevant, include one immediate-gap definition, one recurring-mechanism definition, and one key-challenge definition.
    - Write each as a gap and consequence, not as an unproven cause or preferred solution.
    - Include one uncomfortable but plausible formulation when relevant.
    - Treat every formulation as provisional.
 
-5. Compare the definitions.
+6. Compare the definitions.
    - Which definition is most directly supported by current evidence?
    - Which matters enough to act on?
    - Which is within the user's legitimate influence?
    - Which avoids hard-to-verify motivation labels?
+   - Which definition explains the important pattern without pretending to prove a root cause?
    - Which proposed solution might create a new problem?
 
-6. Select a working definition.
+7. Select a working definition.
    - Choose the most useful current formulation, not the deepest-sounding one.
    - State confidence as high, medium, or low.
    - State what missing evidence could materially change it.
 
-7. Route the next step.
+8. Route the next step.
    - Use `structured-problem-framing` when the working definition is clear enough to decompose.
    - Use `critical-questioning` when a key claim or causal explanation needs evidence review.
    - Use `hrbp-business-diagnosis` for HRBP or organization diagnosis after the problem is accepted.
@@ -89,6 +98,12 @@ Use this exact structure in the first pass unless the user explicitly asks for a
 - 期望状态：
 - 差距造成的影响：
 
+**问题层级检查**
+- 单次事件：
+- 重复模式：
+- 可能维持模式的运行结构：
+- 当前最关键的挑战：
+
 **三个暂定问题定义**
 1.
 2.
@@ -111,6 +126,7 @@ A good first-pass output must:
 
 - distinguish the signal from its interpretation and proposed solution;
 - identify a specific stakeholder and meaningful gap;
+- distinguish an isolated event from a recurring pattern, operating structure, and key challenge when the issue is dynamic;
 - provide at least three provisional definitions;
 - avoid presenting one plausible cause as a diagnosis;
 - avoid words such as "root cause," "essence," or "the real problem is" unless unusually strong evidence exists;
@@ -130,4 +146,4 @@ Do not use this Skill when:
 
 ## Source Notes
 
-Read `references/method-notes.md` for source grounding and boundaries. Read `references/source-audit-20260716.md` before making source-fidelity or maturity claims.
+Read `references/method-notes.md` for source grounding and boundaries. Read `references/source-audit-20260716.md` before making source-fidelity or maturity claims. The workflow is a multi-source synthesis, not a direct transcription of any one book.

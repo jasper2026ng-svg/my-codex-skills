@@ -1,67 +1,57 @@
-# Human Learning Card: Structured Problem Framing
+# 人的学习卡：结构化问题定义
 
-Linked agent skill: `structured-problem-framing`
+关联 Agent Skill：`structured-problem-framing`
 
-## What This Helps You Learn
+## 来源与当前可信度
 
-Turn a vague symptom into a sharper decision question before jumping to action.
+- 主来源：《麦肯锡结构化战略思维》；
+- 个人阅读进度 99%，个人划线 43 条；
+- 书籍质量 77/100，B；可转 Skill 性强；
+- 《系统之美》补充反馈、延迟和循环因果，《好战略，坏战略》补充关键挑战与聚焦；
+- 问题定义、替代切法、MECE、假设与验证主要来自主书；
+- 固定输出、Skill 路由和停止规则主要来自 Agent 综合；
+- 当前 Skill 质量暂评约 81/100，仍需验证是否能稳定选对问题表示方式。
 
-## Core Human Judgment
+## 一句话定义
 
-The key skill is not drawing a logic tree. The key skill is noticing that the first question is often badly framed.
+在暂定问题已经成立后，把它写成有当前状态、目标状态、差距、范围、约束和决策的问题，再选择问题树、流程图、利益相关者图、指标树或系统图进行分析。
 
-## 3 Principles To Internalize
+## 核心判断
 
-1. Separate symptom, cause, desired outcome, and constraint.
-2. Try more than one way to cut the problem before choosing a structure.
-3. Make every branch lead to evidence, action, or a decision.
+关键不是画一棵漂亮的问题树，而是选择一个能暴露证据、行动和取舍的切法。
 
-## When To Use
+## 三个原则
 
-- The issue feels messy, emotional, or cross-functional.
-- People are already arguing about solutions.
-- The real decision owner, scope, or success metric is unclear.
+1. 区分现象、原因假设、目标和约束；
+2. 先判断问题是分类、流程、利益相关者、指标还是动态系统问题；
+3. 至少比较两种结构，再选择更能暴露证据和取舍的一种；
+4. 每个分支、阶段或关系都要指向证据、判断或后续行动。
 
-## When Not To Use
+## 与相邻 Skill 的区别
 
-- The problem and action are already obvious.
-- The user needs quick execution rather than diagnosis.
-- The issue is mainly a communication rewrite.
+- 真问题发现：先确认是谁的什么差距；
+- 结构化问题定义：把已接受的差距变成可分析的问题；
+- 批判性提问：检查其中的关键论证和证据；
+- 方案设计：在问题和证据足够清楚后才开始。
 
-## Before Asking The Agent
-
-Write your 30-second initial judgment:
+## 请求 Agent 前，我先写
 
 ```text
-I think the real question is...
-The biggest missing distinction is...
-The first cut I would try is...
+当前状态是：
+目标状态是：
+关键差距是：
+范围和约束是：
+需要做出的决定是：
+我会先用什么维度拆解：
+我为什么选择问题树/流程图/利益相关者图/指标树/系统图：
 ```
 
-## After The Agent Responds
+## 反向讲解
 
-Compare:
+1. 结构化问题定义为什么不等于真问题发现？
+2. 什么使一个切法比另一个切法更有用？
+3. 什么时候应该停止拆解、开始验证？
 
-- Did the agent define a better decision question than yours?
-- Did it use a different decomposition angle?
-- Which branch changed your view?
-- What evidence would you check first next time?
+## 迁移测试
 
-## Teach-Back
-
-Without looking at the skill, answer:
-
-1. What makes a problem frame better than the raw complaint?
-2. What are three useful ways to cut a business problem?
-3. What signal tells you that a logic tree is not useful?
-
-## Transfer Test
-
-Take a new messy issue from HRBP, sales, operations, or team management. Before using the agent, write:
-
-- raw symptom;
-- better decision question;
-- two possible decomposition cuts;
-- first evidence to check.
-
-Then use the agent only to critique your frame.
+选择一个新问题，独立写出完整问题定义和两种切法，再让 Agent 只负责审查，不替你直接拆解。

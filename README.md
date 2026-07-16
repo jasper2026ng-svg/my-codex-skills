@@ -8,6 +8,8 @@ Start here when choosing which skill to use:
 
 - `docs/jasper-thinking-os-v0.1.md`
 - `docs/book-to-skill-source-quality-standard.md`
+- `docs/skill-suite-quality-audit-20260716.md`
+- `docs/skill-suite-quality-upgrade-20260716.md`
 
 Jasper Thinking OS is a practical map for deciding which thinking step you are in, which skill to use, and when to stop instead of running a long process.
 
@@ -53,7 +55,7 @@ Download the skill package you need from `packages/`, extract it, and copy the e
 $env:USERPROFILE\.codex\skills
 ```
 
-For example, `packages/pyramid-communication-20260712.zip` extracts to:
+For example, `packages/pyramid-communication-20260716.zip` extracts to:
 
 ```text
 pyramid-communication/
@@ -69,14 +71,14 @@ Restart Codex Desktop after installation if the skill does not appear immediatel
 
 ## Current Individual Packages
 
-- `packages/structured-problem-framing-20260712.zip`
+- `packages/structured-problem-framing-20260716.zip`
 - `packages/real-problem-discovery-20260716.zip`
-- `packages/first-principles-reframing-20260712.zip`
-- `packages/critical-questioning-20260712.zip`
-- `packages/pyramid-communication-20260712.zip`
-- `packages/effective-manager-operating-system-20260712.zip`
-- `packages/hrbp-business-diagnosis-20260712.zip`
-- `packages/decision-quality-review-20260712.zip`
+- `packages/first-principles-reframing-20260716.zip`
+- `packages/critical-questioning-20260716.zip`
+- `packages/pyramid-communication-20260716.zip`
+- `packages/effective-manager-operating-system-20260716.zip`
+- `packages/hrbp-business-diagnosis-20260716.zip`
+- `packages/decision-quality-review-20260716.zip`
 
 Older all-in-one packages may remain in `packages/` as history, but new releases should use one zip per skill.
 

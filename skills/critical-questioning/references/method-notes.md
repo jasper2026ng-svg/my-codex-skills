@@ -2,6 +2,8 @@
 
 ## Source
 
+Source quality and provenance were re-audited on 2026-07-16. Read `source-audit-20260716.md` before making maturity or source-fidelity claims.
+
 - Primary source: 《学会提问（原书第11版）》
 - Authors: 尼尔·布朗, 斯图尔特·基利
 - WeRead bookId: `25614397`

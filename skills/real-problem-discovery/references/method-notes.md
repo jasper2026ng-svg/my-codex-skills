@@ -26,6 +26,14 @@ Context source:
 - User reading state at extraction: about 30% progress
 - User notes available at extraction: 7 highlights
 
+System calibration source:
+
+- 《系统之美（全新升级版）》
+- Author: Donella Meadows
+- WeRead bookId: `3300081407`
+- User reading state at extraction: about 99% progress
+- User notes available at extraction: 7 highlights
+
 Extraction date: 2026-07-14
 
 This is an MVP skill. The user's personal highlights are sparse for the primary source, so treat this skill as a promising but early asset. Do not overclaim maturity. Do not quote the books at length.
@@ -46,6 +54,8 @@ Use 《你的灯亮着吗》 as the primary source because the Thinking Map gap 
 Use 《以用户为中心》 as a supporting source because the gap also includes "真需求识别": user, scenario, feedback, need, and evidence.
 
 Use 《好战略，坏战略》 only as context for the idea that good strategy starts from diagnosing the key challenge, not from slogans or scattered goals.
+
+Use 《系统之美》 to avoid confusing a single event with a recurring pattern or system structure. Its role is calibration, not permission to turn every practical problem into a causal-loop model.
 
 ## Method Anchors
 
@@ -71,6 +81,12 @@ From strategy diagnosis:
 
 - Good action depends on finding the key challenge.
 - Avoid hiding from painful details, tradeoffs, and focus.
+
+From systems thinking:
+
+- Separate events from behavior patterns and the structures that reproduce them.
+- Check feedback, delays, incentives, information flows, and system goals when an issue repeats.
+- Do not assume that replacing individual elements will change a system whose relationships and goals remain the same.
 
 ## Skill Boundary
 

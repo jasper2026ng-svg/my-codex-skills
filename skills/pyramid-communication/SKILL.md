@@ -1,6 +1,6 @@
 ---
 name: pyramid-communication
-description: Turn complex thinking, analysis, proposals, meeting conclusions, HRBP recommendations, business diagnoses, and strategy narratives into answer-first communication using pyramid structure. Use when the user needs to write or improve an executive summary, boss update, meeting readout, proposal storyline, decision memo, report outline, slide storyline, or concise message where the conclusion, supporting reasons, grouping logic, and requested action must be clear. Based on an MVP extraction from the user's WeRead copy of "金字塔原理（麦肯锡40年经典培训教材）".
+description: Turn complex thinking, analysis, proposals, meeting conclusions, HRBP recommendations, business diagnoses, and strategy narratives into clear pyramid communication. Use when an executive summary, boss update, meeting readout, proposal, decision memo, report, slide storyline, or concise message needs an explicit early answer, logically grouped support, and a concrete ask. Adapt brief context to the audience without burying the answer. Based on an audited, high-fit extraction from "金字塔原理（麦肯锡40年经典培训教材）".
 ---
 
 # Pyramid Communication
@@ -8,6 +8,8 @@ description: Turn complex thinking, analysis, proposals, meeting conclusions, HR
 Use this skill to make communication easier to understand and act on. It converts scattered thoughts into an answer-first storyline with clear support, logical grouping, and a concrete ask.
 
 Use `structured-problem-framing` first if the problem is still unclear. Use `critical-questioning` first if the core claim is weak or untested. Use this skill after the user has at least a tentative conclusion, recommendation, or message goal.
+
+Answer-first is a structural principle, not a rule that every message must announce the conclusion in its first sentence. For a resistant or unfamiliar audience, use brief situation and complication context when needed, but make the answer explicit early and do not bury it.
 
 Do not summarize the source book or quote long passages from it. Treat the book-derived material as method inspiration, and write in your own words.
 
@@ -125,6 +127,7 @@ Use this when the user needs slides or a presentation outline.
 A good output should:
 
 - put the answer before the explanation;
+- adapt the opening sequence to the audience without burying the answer;
 - make every heading a real claim, not a topic label;
 - group ideas by one clear logic at each level;
 - avoid dumping unrelated facts into the same branch;
@@ -144,4 +147,4 @@ Do not use this skill when:
 
 ## Source Notes
 
-For source grounding and skill boundaries, read `references/method-notes.md`. It records the source book, WeRead book id, reading state, chapter anchors, extraction boundaries, and how this skill should interact with existing thinking skills.
+For source grounding and skill boundaries, read `references/method-notes.md` and `references/source-audit-20260716.md`. The audit records the strong source fit and the remaining risk of mechanical application.

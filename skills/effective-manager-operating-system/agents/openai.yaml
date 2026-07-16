@@ -1,4 +1,4 @@
 interface:
   display_name: "Effective Manager Operating System"
-  short_description: "Design management rhythm, priorities, decisions, and delegation."
-  default_prompt: "Use $effective-manager-operating-system to improve this management situation."
+  short_description: "Improve manager output, leverage, cadence, and ownership."
+  default_prompt: "Use $effective-manager-operating-system to diagnose this accepted management problem through output, leverage, indicators, meetings, decisions, task-relevant maturity, and ownership; preserve manager accountability and design only the smallest useful operating change."

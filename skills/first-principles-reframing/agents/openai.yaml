@@ -1,7 +1,7 @@
 interface:
   display_name: "First Principles Reframing"
-  short_description: "Challenge assumptions and redesign from facts."
-  default_prompt: "Use $first-principles-reframing to rethink this problem from basic facts."
+  short_description: "Rebuild inherited methods with system-aware constraints."
+  default_prompt: "Use $first-principles-reframing only if the problem is clear and the current method is trapped by assumptions; set the system boundary, classify facts and constraints, check feedback and analogy risks, rebuild options, and propose one test without claiming ultimate truth."
 
 policy:
   allow_implicit_invocation: true

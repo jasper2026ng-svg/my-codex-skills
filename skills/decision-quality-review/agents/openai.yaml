@@ -1,4 +1,4 @@
 interface:
   display_name: "Decision Quality Review"
-  short_description: "Audit decisions for bias and evidence gaps."
-  default_prompt: "Use $decision-quality-review to audit this decision before I commit."
+  short_description: "Review boundaries, options, consequences, and action."
+  default_prompt: "Use $decision-quality-review to decide whether a decision is needed, classify the issue, define boundary conditions, compare options, check consequence ownership and evidence, audit only relevant biases, convert the choice into action and feedback, and preserve my ownership of the final choice."

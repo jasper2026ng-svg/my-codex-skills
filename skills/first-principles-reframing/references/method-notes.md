@@ -2,6 +2,8 @@
 
 Primary source: "半小时讲透第一性原理（轻思维）" by 樊中恺.
 
+Source quality and provenance were re-audited on 2026-07-16. Read `source-audit-20260716.md`; the book is now treated as a weak conceptual anchor, not sufficient support for the full workflow.
+
 WeRead book id: `3300200209`.
 
 Observed on 2026-07-10:
@@ -12,9 +14,14 @@ Observed on 2026-07-10:
 - The book has a short, tool-like structure: definition, examples, thinking framework, work applications, practice habits, and boundaries.
 - Public popular highlights cluster around basic facts, hidden assumptions, AI-era problem definition, and avoiding blind analogy.
 
+Calibration sources:
+
+- 《系统之美（全新升级版）》 by Donella Meadows, WeRead `3300081407`; user progress about 99%, 7 highlights. Use for system boundary, feedback, delays, nonlinearity, adaptation, and local optimization.
+- 《表象与本质：类比，思考之源和思维之火》 by Douglas Hofstadter and Emmanuel Sander, WeRead `25292178`; user progress 0%, 0 highlights. Use only as an intellectual calibration that analogy and categorization shape thought; do not treat it as user-internalized or as a procedural manual.
+
 ## Why This Book Was Chosen
 
-Use this book as the first source because it directly targets first-principles thinking and has an explicit practical frame. Other shelf candidates such as "打开心智", "底层逻辑", and "元思考力" are useful context, but they are broader cognitive-thinking books rather than a narrow first-principles tool book.
+Use the light book only for the basic trigger because it directly names first-principles thinking. It is no longer treated as the methodological main source. Use systems thinking to repair reductionist blind spots and analogy theory to check whether a borrowed model is structurally valid.
 
 ## MVP Scope
 
@@ -44,6 +51,9 @@ Use these chapter anchors for future refinement. Do not quote the book at length
 - Do not confuse "basic fact" with "strong opinion."
 - Do not force radical redesign when a small test is enough.
 - Treat culture, incentives, local market constraints, and human behavior as real facts when they can be observed.
+- State the model boundary and time horizon before claiming a fact is fundamental.
+- After decomposition, restore system effects such as feedback, delay, adaptation, and local optimization.
+- Name the analogy being used and where it stops matching the current situation.
 
 ## Candidate Test Prompts
 
